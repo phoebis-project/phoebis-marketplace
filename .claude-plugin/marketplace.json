@@ -1,0 +1,12 @@
+{
+  "name": "phoebis",
+  "description": "Claude Code plugins for the Phoebis Router",
+  "owner": {"name": "Daystrom Labs"},
+  "plugins": [
+    {
+      "name": "phoebis-keepalive",
+      "source": {"source": "github", "repo": "daystrom-labs/phoebis-keepalive"},
+      "description": "Reports session liveness and agent state to the Phoebis Router's keepalive engine"
+    }
+  ]
+}
