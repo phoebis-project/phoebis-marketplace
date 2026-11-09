@@ -4,9 +4,9 @@
   "owner": {"name": "Daystrom Labs"},
   "plugins": [
     {
-      "name": "phoebis-keepalive",
-      "source": {"source": "github", "repo": "daystrom-labs/phoebis-keepalive"},
-      "description": "Reports session liveness and agent state to the Phoebis Router's keepalive engine"
+      "name": "phoebis-companion",
+      "source": {"source": "github", "repo": "daystrom-labs/phoebis-companion"},
+      "description": "Reports session liveness to Phoebis Router and gives the model the pool's allowance"
     }
   ]
 }

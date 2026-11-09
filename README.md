@@ -18,6 +18,6 @@ install line reads `<plugin>@phoebis`.
 
 | Plugin | Repository | What it does |
 | --- | --- | --- |
-| `phoebis-keepalive` | [daystrom-labs/phoebis-keepalive](https://github.com/daystrom-labs/phoebis-keepalive) | Reports session liveness and agent state to the router's keepalive engine |
+| `phoebis-companion` | [daystrom-labs/phoebis-companion](https://github.com/daystrom-labs/phoebis-companion) | Reports session liveness to the router and gives the model the pool's allowance |
 
-Install one with `/plugin install phoebis-keepalive@phoebis`.
+Install one with `/plugin install phoebis-companion@phoebis`.
