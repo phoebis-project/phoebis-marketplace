@@ -1,11 +1,16 @@
 {
   "name": "phoebis",
   "description": "Claude Code plugins for the Phoebis Router",
-  "owner": {"name": "Daystrom Labs"},
+  "owner": {
+    "name": "Phoebis Project"
+  },
   "plugins": [
     {
       "name": "phoebis-companion",
-      "source": {"source": "github", "repo": "daystrom-labs/phoebis-companion"},
+      "source": {
+        "source": "url",
+        "url": "https://github.com/phoebis-project/phoebis-companion.git"
+      },
       "description": "Reports session liveness to Phoebis Router and gives the model the pool's allowance"
     }
   ]

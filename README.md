@@ -8,16 +8,16 @@ Claude Code where to fetch it from.
 Inside Claude Code:
 
 ```text
-/plugin marketplace add daystrom-labs/phoebis-marketplace
+/plugin marketplace add phoebis-project/phoebis-marketplace
 ```
 
-From a shell, `claude plugin marketplace add daystrom-labs/phoebis-marketplace`. The catalog's name is `phoebis`, so an
-install line reads `<plugin>@phoebis`.
+From a shell, `claude plugin marketplace add phoebis-project/phoebis-marketplace`. The catalog's name is `phoebis`, so
+an install line reads `<plugin>@phoebis`.
 
 ## Plugins
 
 | Plugin | Repository | What it does |
 | --- | --- | --- |
-| `phoebis-companion` | [daystrom-labs/phoebis-companion](https://github.com/daystrom-labs/phoebis-companion) | Reports session liveness to the router and gives the model the pool's allowance |
+| `phoebis-companion` | [phoebis-project/phoebis-companion](https://github.com/phoebis-project/phoebis-companion) | Reports session liveness to the router and gives the model the pool's allowance |
 
 Install one with `/plugin install phoebis-companion@phoebis`.
