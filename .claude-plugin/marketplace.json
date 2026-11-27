@@ -9,7 +9,9 @@
       "name": "phoebis-companion",
       "source": {
         "source": "url",
-        "url": "https://github.com/phoebis-project/phoebis-companion.git"
+        "url": "https://github.com/phoebis-project/phoebis-companion.git",
+        "ref": "0.1.0",
+        "sha": "725a4dfaefeb970159cbec042081ddc6a1778b02"
       },
       "description": "Reports session liveness to Phoebis Router and gives the model the pool's allowance"
     }
